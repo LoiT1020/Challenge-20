@@ -1,0 +1,207 @@
+/*primary style*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+body {
+    background-image: url(https://www.ilovewallpaper.com/images/perfect-sky-childrens-cloud-wallpaper-in-blue-p7820-26491_image.jpg);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+/*header style*/
+header {
+    padding: 20px 35px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    top:0;
+    background-image: url("../images/banner.PNG");
+    background-size: cover;
+    background-position:bottom;
+    background-attachment:fixed;
+    z-index:9999;
+  }
+  header a {
+      text-decoration: none;
+      color:rgb(237, 78, 78)
+  }
+  header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding:10px 10px 10px 10px;
+    background-color: rgba(161, 216, 235, 0.5);
+    border-radius: 5px 30px;
+    font-size:2vw;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+  header nav{
+    font-weight:bold;
+    font-size: 20px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;  
+  }
+  header nav ul {
+      display:flex;
+      flex-wrap: wrap;
+      justify-content:space-around ;
+      align-items: center;
+      list-style:none;
+  }
+  header nav ul li {
+      padding: 10px 10px 10px 10px;
+      font-size: 1.5vw;
+  }
+  /*new feature, just learened*/
+  .sub-nav{
+    background-color:white;
+    padding: 10px 10px 10px 10px;
+    display:none;
+    border-radius: 50px;
+    z-index: 9999;
+  }
+ 
+/*end header style*/
+
+/*footer style*/
+footer {
+    background-image:url(../images/banner.PNG);
+    padding:20px;
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+    font-size: 28px;
+}
+/*footer style end*/
+/*body style*/
+  /*Introduction style*/
+  .Introduction{
+      align-content:center;
+      font-size: 28px;
+      color:rgb(97, 51, 51,0.9);
+      display:flex;
+      margin-top:5%;
+      margin-bottom:10%;
+      
+  }
+  .Introduction .p-intro{
+      display: block;
+      margin-left:10%;
+      Width:35%;
+      text-align:right;
+      padding: 5% 2%;
+      text-shadow: 5px 5px 20px darkblue;
+  }
+  .Introduction .p-img{
+      display:flex;
+      margin:0 20% 0 2%;
+      Padding: 20px;
+      width:30%;
+  }
+  .Introduction .p-img img {
+      border-radius: 20px;
+      box-shadow: 0px 0px 30px rgb(17, 17, 46);
+  }
+  /*Introduction style end*/
+  /* other things style*/
+  .etc{
+      border-top:3px dotted darkblue;
+      padding-top: 10%;
+      Padding-bottom: 10%
+  }
+  .etc h2{
+      display:block;
+      width:50%;
+      text-align:center;
+      margin:0 auto 0 auto;
+      font-size:50px;
+      color:rgb(7, 87, 200);
+      border-bottom: 3px solid darkblue;
+      text-shadow: 0 0 20px;
+  }
+  .etc p{
+    display:block;
+    width:70%;
+    margin:auto;  
+    font-size:30px;
+    color:rgb(0, 128, 128)
+  }
+/*Skill and Experience style*/
+.Skill-Experience{
+    width: 100%;
+    margin: 0 auto 0 10%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.SE-list{
+    display:block;
+    width:70%;
+    margin:auto;  
+    font-size:30px;
+    color:rgb(0, 128, 128)
+}
+.SE-list ul{
+    color: darkblue;
+    font-size:25px;
+    padding: 10px 10px 10px 10px;   
+}
+.SE-list ul li{
+    justify-content: space-around;
+}
+
+  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position:relative;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+      font-size:30px;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+  
+    footer h2 {
+      text-align: center;
+      width: 100%;
+    }
+}
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    .Introduction{
+      display:block;
+    }
+    .Introduction .p-intro{
+        width: 70%;
+        align-content: center;
+    }
+    .Introduction .p-img{
+        margin:0 10% 0 10%; 
+    }
+    .etc h2{
+        font-size:40px;
+    }
+    .etc p{
+        font-size:20px;
+    }
+}
+header .has-children:hover>.sub-nav { 
+    Display:block;
+    font-size: 0.8vw;
+    position: absolute;
+}

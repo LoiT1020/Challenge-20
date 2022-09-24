@@ -1,0 +1,91 @@
+/*style about-me*/
+.about-me{
+    font-family: 'Times New Roman', Times, serif;
+    border:5px double darkblue;
+}
+.about-me h2{
+    font-size:50px;
+    display:block;
+    width:50%;
+    text-align:center;
+    margin:0 auto 0 auto;
+    font-size:50px;
+    color:rgb(7, 87, 200);
+    border-bottom: 3px solid darkblue;
+    text-shadow: 0 0 20px;
+}
+.about-me h3{
+    font-size:50px;
+    display:block;
+    width:70%;
+    text-align:center;
+    margin:0 auto 0 auto;
+    font-size:30px;
+    color:rgb(7, 87, 200);
+    border-bottom: 3px solid darkblue;
+    text-shadow: 0 0 20px;
+}
+.about-me p{
+    display:block;
+    width:80%;
+    margin:auto;  
+    font-size:15px;
+    color:rgb(0, 128, 128);
+    line-height:2;
+}
+/*about-me end*/
+/*My education*/
+.my-education {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.school-info {
+    font-family:Arial, Helvetica, sans-serif;
+    display:block;
+    width: 35%;
+}
+.school-info h2{
+    font-size: 30px;
+    color: darkblue;
+    border-bottom: 5px dashed darkblue;
+    
+}
+.school-info p{
+    font-size:15px;
+}
+.school-img img {
+    border-radius: 50px;
+    height:300px;
+    width:400px;
+}
+.text-left{
+    text-align: right;
+    margin:10% 2% 0 20%;
+}
+.left {
+    transform: rotate(3deg);
+}
+.text-right{
+    text-align: left;
+    margin:10% 20% 0 2%;
+}
+.right{
+    transform: rotate(-3deg)
+}
+.my-education div article {
+    Display:flex;
+    padding: 10px 10px 10px 10px;   
+}
+.my-education div .bla-bla {
+    width:90%;
+    text-align: center;
+    color:darkblue;
+    padding: 10px 10% 10px 10%;
+    margin:auto
+    
+}
+.US-highschool h2 {
+    color: rgb(231, 204, 50);
+}
