@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Challenge-20/static/css/main.41a69b93.chunk.css",
+    "main.js": "/Challenge-20/static/js/main.2451f905.chunk.js",
+    "main.js.map": "/Challenge-20/static/js/main.2451f905.chunk.js.map",
+    "runtime-main.js": "/Challenge-20/static/js/runtime-main.121e439b.js",
+    "runtime-main.js.map": "/Challenge-20/static/js/runtime-main.121e439b.js.map",
+    "static/js/2.00456d1c.chunk.js": "/Challenge-20/static/js/2.00456d1c.chunk.js",
+    "static/js/2.00456d1c.chunk.js.map": "/Challenge-20/static/js/2.00456d1c.chunk.js.map",
+    "static/js/3.963c00a9.chunk.js": "/Challenge-20/static/js/3.963c00a9.chunk.js",
+    "static/js/3.963c00a9.chunk.js.map": "/Challenge-20/static/js/3.963c00a9.chunk.js.map",
+    "index.html": "/Challenge-20/index.html",
+    "static/css/main.41a69b93.chunk.css.map": "/Challenge-20/static/css/main.41a69b93.chunk.css.map",
+    "static/js/2.00456d1c.chunk.js.LICENSE.txt": "/Challenge-20/static/js/2.00456d1c.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Challenge-20/static/media/banner.1c1060da.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.121e439b.js",
+    "static/js/2.00456d1c.chunk.js",
+    "static/css/main.41a69b93.chunk.css",
+    "static/js/main.2451f905.chunk.js"
+  ]
+}
