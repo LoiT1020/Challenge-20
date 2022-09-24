@@ -2,6 +2,8 @@
 
 ## Deployed
 
+http://LoiT1020.github.io/Challenge-20
+
 ## Reference
 
 Module 20 and Mock-up code 20.5
@@ -13,3 +15,5 @@ I use most of feature I have learn in Lesson, try to find the difference between
 ## Feature
 
 Resume and Porfolio need to be updated
+
+Fixing background img not working on deployed
